@@ -1,0 +1,96 @@
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #111;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+.hero {
+  height: 100vh;
+  background: url('hero.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text .btn {
+  background: #facc15;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #111;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #111;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #facc15;
+}
+.form-section {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+}
+
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: #facc15;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
